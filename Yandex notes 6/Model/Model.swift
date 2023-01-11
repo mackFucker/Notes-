@@ -33,15 +33,13 @@ protocol NotesRepository {
 final class NotesDataSource: NotesRepository {
     
     weak var delegate: NotifyAboutChanges?
-    
-    static var counterId = 0
-        
+            
     static let shared = NotesDataSource()
     
     private init () {}
     
-    private var notes: [NSManagedObject] = [].sorted { ($0.value(forKey: "id") as! Int) <  ($1.value(forKey: "id") as! Int)}
-
+    private var notes: [NSManagedObject] = []
+    
     func setDelegate(delegate: NotifyAboutChanges) {
         self.delegate = delegate
     }
@@ -58,7 +56,7 @@ final class NotesDataSource: NotesRepository {
         note.setValue("", forKey: "text")
         note.setValue("", forKey: "date")
         note.setValue(1, forKey: "importance")
-        note.setValue(NotesDataSource.counterId, forKey: "id")
+        note.setValue((notes.count == 0) ?  0 : notes[notes.count - 1].value(forKey: "id") as! Int + 1 , forKey: "id")
         note.setValue(false, forKey: "isFinished")
         
         notes.append(note)
@@ -98,6 +96,8 @@ final class NotesDataSource: NotesRepository {
         } catch let error as NSError {
           print("Could not fetch. \(error), \(error.userInfo)")
         }
+        notes.sort {($0.value(forKey: "id") as! Int) < ($1.value(forKey: "id") as! Int)}
+        print(notes.map {$0.value(forKey: "id")})
     }
     
     func deleteNote(index: Int) {

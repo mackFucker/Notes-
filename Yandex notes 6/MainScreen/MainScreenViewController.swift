@@ -59,7 +59,6 @@ extension MainScreenViewController: UITableViewDelegate {
 extension MainScreenViewController: MainScreenViewOutput {
     func addNoteAction(tableView: UITableView) {
         notesRepository.addNewNote()
-        NotesDataSource.counterId += 1
     }
 }
 
