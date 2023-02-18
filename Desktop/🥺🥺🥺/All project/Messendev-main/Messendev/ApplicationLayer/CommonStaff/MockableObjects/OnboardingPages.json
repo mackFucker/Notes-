@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "image-url" : "URL*",
+      "title": "String",
+      "subtitle": "*String*"
+    },
+    {
+      "image-url" : "*URL*",
+      "title": "*String*",
+      "subtitle": "*String*"
+    },
+    {
+      "image-url" : "*URL*",
+      "title": "*String*",
+      "subtitle": "*String*"
+    }
+  ]
+}
