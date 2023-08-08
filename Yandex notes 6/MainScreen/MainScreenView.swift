@@ -40,10 +40,9 @@ final class MainScreenView: UIView {
                                          height: 40,
                                          textSize: 20,
                                          сolorText: .systemBackground,
-                                         shadowOpacity: 0.3,
+                                         shadowOpacity: nil,
                                          corner: nil)
         addNoteButton.addTarget(self, action: #selector(addNoteAction), for: .touchUpInside)
-        addNoteButton.layer.shadowRadius = 4
         addNoteButton.translatesAutoresizingMaskIntoConstraints = false
         addSubview(addNoteButton)
         return addNoteButton
