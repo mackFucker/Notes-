@@ -8,12 +8,12 @@
 
 - Пользователи могут добавлять новые задачи, вводя название задачи и нажимая кнопку.
 
-<image src="https://github.com/mackFucker/Notes-/raw/main//Users/devidkihtenko/Desktop/Notes-/Yandex notes 6/Screenshots/2.png">
+<image src="https://github.com/mackFucker/Notes-/blob/main/Yandex%20notes%206/Screenshots/2.png">
 
 - Пользователи могут отмечать задачи как выполненные, нажимая на них.
 
-<image src="https://github.com/mackFucker/Notes-/raw/main//Users/devidkihtenko/Desktop/Notes-/Yandex notes 6/Screenshots/3.png">
+<image src="https://github.com/mackFucker/Notes-/blob/main/Yandex%20notes%206/Screenshots/3.png">
 
 - Пользователи могут удалять задачи, проводя пальцем влево по ним.
 
-<image src="https://github.com/mackFucker/Notes-/raw/main//Users/devidkihtenko/Desktop/Notes-/Yandex notes 6/Screenshots/4.png">
+<image src="https://github.com/mackFucker/Notes-/blob/main/Yandex%20notes%206/Screenshots/4.png">
