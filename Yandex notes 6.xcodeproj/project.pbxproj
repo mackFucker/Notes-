@@ -110,6 +110,7 @@
 		8F2FC750291FC625005BA263 = {
 			isa = PBXGroup;
 			children = (
+				8F1DD9742A821D2E00F1746E /* README.md */,
 				8F2FC75B291FC625005BA263 /* Yandex notes 6 */,
 				8F2FC75A291FC625005BA263 /* Products */,
 			);
@@ -132,7 +133,6 @@
 				8F2FC770291FCB9B005BA263 /* App */,
 				8F2FC76A291FC626005BA263 /* Info.plist */,
 				8F1DD9752A821D6B00F1746E /* Screenshots */,
-				8F1DD9742A821D2E00F1746E /* README.md */,
 			);
 			path = "Yandex notes 6";
 			sourceTree = "<group>";
