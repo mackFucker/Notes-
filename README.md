@@ -4,7 +4,7 @@
 
 - Пользовательский интерфейс со списком задач.
 
-<image src="https://github.com/mackFucker/Notes-/raw/main//Users/devidkihtenko/Desktop/Notes-/Yandex notes 6/Screenshots/1.png">
+<image src="https://github.com/mackFucker/Notes-/blob/main/Yandex%20notes%206/Screenshots/1.png">
 
 - Пользователи могут добавлять новые задачи, вводя название задачи и нажимая кнопку.
 
