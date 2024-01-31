@@ -1,0 +1,74 @@
+###BOTTLING### default.sh
+/Applications/WineBottler.app/Contents/Frameworks/WBottler.framework/Resources/bottler.sh: line 39: /Applications/Wine.app/Contents/Resources/bin/wine: Bad CPU type in executable
+###BOTTLING### Gathering debug Info...
+
+Versions
+OS...........................: darwin23
+Wine.........................: 
+WineBottler..................: 1.8.6
+Wineticks....................: 20230212-next - sha256sum: 2365e68df2f675d6820b7cf466d5cd6e500414828a30bd88bacdcfb5221651f6
+
+Environment
+PWD..........................: '/Applications/Wine.app/Contents/Resources/bin'
+PATH.........................: /Applications/Wine.app/Contents/Resources/bin:/usr/bin:/bin:/usr/sbin:/sbin
+USER.........................: devidkihtenko
+HOME.........................: /Users/devidkihtenko
+COMPUTERNAME.................: MacBook AirÂ â Ð´ÑÐ²Ð¸Ð´
+BUNDLERESOURCEPATH...........: /Applications/WineBottler.app/Contents/Frameworks/WBottler.framework/Resources
+WINEPREFIX...................: /Applications/Wine.app/Contents/Resources
+WINEPATH.....................: /Applications/Wine.app/Contents/Resources/bin
+LD_LIBRARY_PATH..............: /Applications/Wine.app/Contents/Resources/lib:/opt/X11/lib:/usr/X11/lib
+DYLD_FALLBACK_LIBRARY_PATH...: /Applications/Wine.app/Contents/Resources/lib:/usr/lib:/opt/X11/lib:/usr/X11/lib
+SILENT.......................: 
+http_proxy...................: 
+https_proxy..................: 
+ftp_proxy....................: 
+socks5_proxy.................: 
+
+Bottle
+TEMPLATE.....................: 
+BOTTLE.......................: /Users/devidkihtenko/Desktop/ÑÑÑÑÑÑ.app
+INSTALLER_URL................: 
+INSTALLER_IS_ZIPPED..........: 0
+INSTALLER_NAME...............: 
+INSTALLER_ARGUMENTS..........: 
+REMOVE_MONO..................: 
+REMOVE_GECKO.................: 
+REMOVE_USERS.................: 
+REMOVE_INSTALLERS............: 
+WINETRICKS_ITEMS.............: winxp 
+DLL_OVERRIDES................: 
+EXECUTABLE_PATH..............: winefile
+EXECUTABLE_ARGUMENTS.........: 
+EXECUTABLE_VERSION...........: 1.0.0
+BUNDLE_COPYRIGHT.............: Â© Your Company
+BUNDLE_IDENTIFIER............: com.yourcompany.yourapp
+BUNDLE_CATEGORYTYPE..........: public.app-category.business
+SILENT.......................: 
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Air
+      Model Identifier: MacBookAir10,1
+      Model Number: MGN63LL/A
+      Chip: Unknown
+      Total Number of Cores: 8 (4 performance and 4 efficiency)
+      Memory: 8 GB
+      System Firmware Version: 10151.0.82.0.1
+      OS Loader Version: 10151.0.82.0.1
+      Serial Number (system): C02JD7R6Q6L4
+      Hardware UUID: E7BCE62B-B14C-5867-A132-274A92012996
+      Provisioning UDID: E7BCE62B-B14C-5867-A132-274A92012996
+      Activation Lock Status: Enabled
+
+###BOTTLING### Create .app...
+###BOTTLING### Enabling CoreAudio, Colors, Antialiasing  and flat menus...
+/Applications/WineBottler.app/Contents/Frameworks/WBottler.framework/Resources/bottler.sh: line 134: /Applications/Wine.app/Contents/Resources/bin/wine: Bad CPU type in executable
+### LOG ### Command '/Applications/Wine.app/Contents/Resources/bin/wine regedit /tmp/reg.reg' returned status 126.
+
+
+
+###ERROR### Command '/Applications/Wine.app/Contents/Resources/bin/wine regedit /tmp/reg.reg' returned status 126.
+Task returned with status 1.
